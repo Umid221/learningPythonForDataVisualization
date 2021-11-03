@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #loading up the csv file
-data = pd.read_csv('D:\programming\python\graduateMonkey\project\countries of the world.csv')
+data = pd.read_csv('countries of the world.csv')
 sorted = data.sort_values('GDP_PC', ascending = False).head(10)
 
 # print(sorted.GDP_PC)
