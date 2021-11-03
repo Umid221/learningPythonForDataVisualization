@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('D:\programming\python\graduateMonkey\project\gdp.csv')
+data = pd.read_csv('gdp.csv')
 
 ch = data[data.country == 'China']
 us = data[data.country == 'United States']
