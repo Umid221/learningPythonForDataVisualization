@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #loading up the csv file
-data = pd.read_csv('D:\programming\python\graduateMonkey\project\gdp(only_regional).csv')
+data = pd.read_csv('gdp(only_regional).csv')
 
 # sorting data
 by_year = data.sort_values('year', ascending=False).head(10)
